@@ -4,7 +4,7 @@ import { UploadVideo } from 'src/types/video.type'
 import http from 'src/utils/http'
 
 const ClOUD_NAME = 'dikcv9hrc'
-const PRESENT_NAME = 'video_upload'
+const PRESENT_NAME = 'aod7unsn'
 const FOLDER_NAME_VIDEO = 'youtube-clone/video'
 const FOLDER_NAME_IMAGE = 'youtube-clone/image'
 const URL_API = `https://api.cloudinary.com/v1_1/${ClOUD_NAME}/video/upload`
