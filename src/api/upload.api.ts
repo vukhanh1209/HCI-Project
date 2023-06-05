@@ -3,13 +3,13 @@ import sha1 from 'sha1'
 import { UploadVideo } from 'src/types/video.type'
 import http from 'src/utils/http'
 
-const ClOUD_NAME = 'dw254eqyp'
+const ClOUD_NAME = 'dikcv9hrc'
 const PRESENT_NAME = 'video_upload'
 const FOLDER_NAME_VIDEO = 'youtube-clone/video'
 const FOLDER_NAME_IMAGE = 'youtube-clone/image'
 const URL_API = `https://api.cloudinary.com/v1_1/${ClOUD_NAME}/video/upload`
 const URL_API_IMAGE = `https://api.cloudinary.com/v1_1/${ClOUD_NAME}/image/upload`
-const apiSecret = 'aBCAtSqVQHtNrpNKdIJHaMyEiJU'
+const apiSecret = 'Gs6ecCbd_CAEjuwJ9tU0O6nmHpk'
 const URL_CREATE_VIDEO = '/api/v1/videos'
 export let controllerVideo: AbortController
 export let controllerImage: AbortController
@@ -42,8 +42,8 @@ const uploadApi = {
     const signature = sha1(`public_id=${publicId}&timestamp=${timestamp}${apiSecret}`)
     return axios.post(`https://api.cloudinary.com/v1_1/${ClOUD_NAME}/image/destroy`, {
       public_id: publicId,
-      api_key: '155478199373319',
-      api_serect: 'aBCAtSqVQHtNrpNKdIJHaMyEiJU',
+      api_key: '387648496883642',
+      api_serect: 'Gs6ecCbd_CAEjuwJ9tU0O6nmHpk',
       timestamp,
       signature
     })
@@ -53,8 +53,8 @@ const uploadApi = {
     const signature = sha1(`public_id=${publicId}&timestamp=${timestamp}${apiSecret}`)
     return axios.post(`https://api.cloudinary.com/v1_1/${ClOUD_NAME}/video/destroy`, {
       public_id: publicId,
-      api_key: '155478199373319',
-      api_serect: 'aBCAtSqVQHtNrpNKdIJHaMyEiJU',
+      api_key: '387648496883642',
+      api_serect: 'Gs6ecCbd_CAEjuwJ9tU0O6nmHpk',
       timestamp,
       signature
     })
