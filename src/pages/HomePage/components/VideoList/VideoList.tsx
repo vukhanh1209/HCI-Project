@@ -125,9 +125,9 @@ const VideoList = ({ filter }: VideoListProps) => {
 
         {isSuccess && filter !== '1' && getVideo.data.data.videos?.length === 0 && (
           <>
-            <div className='flex items-center justify-center'>
-              <span className='text-base font-semibold text-black dark:text-white md:text-lg'>
-                Không tìm thấy video
+            <div className='absolute top-[50%] left-0 right-0 text-center '>
+              <span className='text-base font-semibold text-black dark:text-white md:text-2xl'>
+                Chưa có video nào thuộc thể loại này
               </span>
             </div>
           </>

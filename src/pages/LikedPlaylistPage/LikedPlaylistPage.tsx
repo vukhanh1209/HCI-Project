@@ -59,7 +59,7 @@ const LikedPlaylistPage = () => {
                 VideoList.data.data?.map((item, index) => <VideoItem key={index} data={item.video} index={index} />)}
               {isSuccess && (VideoList.data.data.length as number) === 0 && (
                 <div className='flex h-[67vh] w-full flex-col items-center justify-center'>
-                  <span className='text-xl font-bold text-black dark:text-white'>Không có video nào trong</span>
+                  <span className='text-base md:text-2xl font-bold text-black dark:text-white'>Bạn chưa thích video nào</span>
                 </div>
               )}
             </div>

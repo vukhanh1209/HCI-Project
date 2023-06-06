@@ -166,7 +166,7 @@ const SubscriptionsPage = () => {
                     getVideoFollowing?.data.data.thisWeek?.map((item, index) => <VideoItem key={index} data={item} />)}
                   {isSuccess && getVideoFollowing.data.data.thisWeek.length === 0 && (
                     <div className='flex  h-full w-full items-center justify-center   '>
-                      <span className='text-2xl font-bold text-black dark:text-white'>
+                      <span className='text-base md:text-2xl font-bold text-black dark:text-white'>
                         Không tìm thấy video nào được đăng tải
                       </span>
                     </div>
@@ -222,7 +222,7 @@ const SubscriptionsPage = () => {
 
             {isError && (
               <div className='flex h-[80vh] w-full items-center justify-center'>
-                <span className='text-2xl font-bold text-black dark:text-white'>Bạn chưa đăng ký kênh nào</span>
+                <span className='text-base md:text-2xl font-bold text-black dark:text-white'>Bạn chưa đăng ký kênh nào</span>
               </div>
             )}
           </div>
