@@ -14,14 +14,10 @@ html {
 body {
   /* font-family: 'Roboto', sans-serif; */
   font-family: 'Nunito', sans-serif;
+  overflow-y: auto !important;
+  -webkit-overflow-scrolling: touch;
 }
 
-
-@media screen and (min-width: 1536px) {
-  body {
-    overflow-y: auto !important;
-  }
-}
 
 .container {
   max-width: 100%!important;
