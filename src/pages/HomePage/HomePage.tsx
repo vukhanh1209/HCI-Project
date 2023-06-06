@@ -12,27 +12,27 @@ const categoryAPI = [
     name: 'Tất cả'
   },
   {
-    id: '643ce9a448f7c65f714e2690',
+    id: '647e206f102d656559afa622',
     name: 'Khoa học và Công nghệ'
   },
   {
-    id: '643ce99b48f7c65f714e268d',
+    id: '647e20a1102d656559afa623',
     name: 'Tin tức và sự kiện'
   },
   {
-    id: '643ce99248f7c65f714e268a',
+    id: '647e20b5102d656559afa624',
     name: 'Đời sống'
   },
   {
-    id: '6438f59e0ec1f545856c75e6',
+    id: '647e20c1102d656559afa625',
     name: 'Thể thao'
   },
   {
-    id: '6438f5950ec1f545856c75e3',
+    id: '647e20cc102d656559afa626',
     name: 'Giải trí'
   },
   {
-    id: '6438cb58276e67d1286406ef',
+    id: '647e20d5102d656559afa627',
     name: 'Âm nhạc'
   }
 ]
