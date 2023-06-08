@@ -13,11 +13,11 @@ const categoryAPI = [
   },
   {
     id: '647e206f102d656559afa622',
-    name: 'Khoa học và Công nghệ'
+    name: 'Lập trình'
   },
   {
     id: '647e20a1102d656559afa623',
-    name: 'Tin tức và sự kiện'
+    name: 'Tin tức'
   },
   {
     id: '647e20b5102d656559afa624',
